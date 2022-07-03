@@ -1,0 +1,243 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.navbar-color{
+    background-color: #0000000a;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.carousel-caption {
+    color: #fff;
+    position: absolute;
+    top: 27%;
+}
+
+.carousel-caption b {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.event-icon {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.event-content {
+    margin-top: 50px;
+    border: 2px solid red;
+}
+
+
+.follow-us-section {
+    background-image: url('images/bg-twitter.jpg');
+    background-attachment: fixed;
+}
+
+
+.follow-icon {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.about-band {
+    background-image: url('images/bg-biography.jpg');
+    width: 100%;
+}
+
+
+.footer-section-bg-img {
+    background-image: url('images/bg-contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.form-input-area {
+    background: none !important;
+    border: none !important;
+    background-color: black;
+    color: white !important;
+}
+
+
+.form-name-margin-left {
+    padding-left: 10px !important;
+
+}
+
+.contact-icon-margin-right {
+    padding-left: 10px !important;
+}
+
+.contact-icon {
+    font-size: 40px !important;
+    padding-left: 30px !important;
+}
+
+.album-container-mobile {
+    display: none;
+}
+
+@media(max-width:600px) {
+    .footer-section-bg-img {
+        background-image: url('images/bg-contact.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 1100px;
+    }
+
+    .contact-icon {
+        font-size: 15px !important;
+    }
+
+    .navbar-color {
+        background-color: black;
+    }
+
+    .follow-icon {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .album-container {
+        display: none;
+    }
+
+    .album-container-mobile {
+        display: block;
+    }
+}
+
+/*-----------------------------------------------------------Album Page Css-------------------------------------------------------- */
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 1)), url('img/rishi2.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+}
+
+
+@media(max-width:600px) {
+           
+
+    .banner {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rishi.jpg');
+
+        background-size: 100% 100%;
+        width: 100%;
+        height: 700px;
+    }
+
+    .rimg a img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .rt h3 {
+        font-size: 30px;
+    }
+
+    .rt p {
+        font-size: 14px;
+    }
+}
+/*--------------------------------------------------------------media css--------------------------------------------------------*/
+
+.media-banner {
+    background-image: url('images/c-d-x-PDX_a_82obo-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.media-banner h3 {
+    margin-top: 280px;
+    font-size: 100px;
+}
+
+.gallery-text {
+
+    font-size: 80px;
+
+}
+
+@media(max-width:600px) {
+
+    .media-banner {
+        background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bXVzaWN8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+        background-repeat: no-repeat;
+        background-position: contain;
+        width: 100%;
+        height: 300px;
+    }
+
+    .media-banner h3 {
+        margin-left: 20px;
+        margin-top: 150px;
+        font-size: 30px;
+    }
+
+    .gallery-text {
+        font-size: 40px;
+    }
+
+    .media-banner-text {
+        font-size: 50px;
+    }
+}
+
+/*--------------------------------------------------------------------------music css-----------------------------------------------------------------------------*/
+.scroll {
+    height: 600px;
+    overflow-y: scroll;
+}
+
+
+  .music-banner-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2)50%, rgba(0, 0, 0, 1)), url('img/bannermusic.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+  }
+  .music-banner-txt{
+      margin-top:300px ;
+  }
+@media(max-width:600px) {
+   
+
+    .music-banner-img{
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url('img/bannerimg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+   
+  }
+  .music-banner-txt{
+      margin-top: 70px;
+  }
+  .music-banner-txt p{
+      font-size: 15px;
+  }
+  
+}
+/* loader */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #fff url('https://www.animatedimages.org/data/media/369/animated-guitar-image-0015.gif')
+    no-repeat center;
+    z-index: 99999;
+  }
